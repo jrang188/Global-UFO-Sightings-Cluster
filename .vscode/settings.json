@@ -1,0 +1,6 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "docwriter.style": "NumPy",
+    "python.linting.flake8Enabled": true
+}
