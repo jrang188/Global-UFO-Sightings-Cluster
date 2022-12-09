@@ -26,8 +26,8 @@ def get_ufo_data(month_year):
 
     df = pd.read_html(page.text, parse_dates=True)[0]
 
-    output_path = './ufo_data/'
-    filename = output_path + str(month_year) + '.csv'
+    OUTPUT_PATH = './data/raw_ufo_data/'
+    filename = OUTPUT_PATH + str(month_year) + '.csv'
     print("Saving file: " + filename)
     df.to_csv(filename, index=False)
 
