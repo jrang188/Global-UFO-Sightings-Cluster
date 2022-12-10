@@ -52,7 +52,7 @@ In order to execute the project properly, it is essential to execute each of the
 ## Expected Result
 ![UFO Sighting Global Cluster 2020-2022](global_cluster.png)
 
-The expected output of this project is an html file that contains the map with the marker to the UFO sightings that occured between January, 2020 to November, 2022. Each marker are colour coded based on what cluster they are part of.
+The expected output of this project is an html file that contains the map with the marker to the UFO sightings that occured between January, 2020 to October, 2022. Each marker are colour coded based on what cluster they are part of.
 
 Output:
 - global_cluster.html
