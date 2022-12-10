@@ -13,7 +13,7 @@ Please install these packages prior to running:
 
 Install either through PIP or Anaconda
 
-### PIP Library Installation {#pip-installation}
+### PIP Library Installation
 Run this command in the terminal prior to running the project  
 ```pip3 install -U pandas requests googlemaps python-dotenv scikit-learn matplotlib seaborn folium```
 
@@ -61,7 +61,7 @@ Output:
 If you want to try out running **geocoding.py**, you will need to acquire a Google Maps API key.
 To do so, you can follow the Google's guide in this [link](https://developers.google.com/maps).  
 
-Once you have an API key, ensure that you have the ***python-dotenv*** library installed, which should have been done if you followed the [PIP library installation guide above](#pip-installation).
+Once you have an API key, ensure that you have the ***python-dotenv*** library installed, which should have been done if you followed the [PIP library installation guide above](#PIP-Library-Installation).
 
 Then follow this steps:
 1. Add a ```.env``` file in your project directory
